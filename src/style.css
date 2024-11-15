@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@import url('https://fonts.cdnfonts.com/css/koulen');
+@layer base {
+    @font-face {
+        font-family: 'Koulen', sans-serif;
+        font-style: regular;
+        font-weight: 400;
+        font-display: swap;
+        src: url(../public/Koulen-Regular.ttf) format('ttf');
+        }
+    } 

@@ -2,7 +2,16 @@
 export default {
   content: ["./src/**/*.{njk,js}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        'primary': '#590C2E',
+        'secondary': '#151515',
+        'attention': '#F3E116'
+      },
+      fontFamily: {
+        primary: ['Koulen', 'sans']
+      }
+    },
   },
   plugins: [],
 }
