@@ -11,6 +11,9 @@ export default {
       },
       fontFamily: {
         primary: ['Koulen', 'sans']
+      },
+      dropShadow: {
+        'text': '0 -10px 0px rgba(0, 0, 0, 1)'
       }
     },
   },
