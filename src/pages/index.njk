@@ -1,6 +1,5 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-  <body class="font-primary bg-gradient-to-b from-primary via-primary to-tritary">
     <div
       class="flex-col justify-items-center font-primary bg-primary w-452 pb-12 bg-local bg-cover"
       style="background-image: url(teampick.png)">
@@ -17,39 +16,79 @@
     <div class="mt-20 mb-20 bg-secondary">
       <img src="rwstar.png" alt="star" class="flex -mb-96 ">
       <div class="pl-40 pb-20 pt-20">
-        <h1 class="text-attention text-8xl pb-8 drop-shadow-text">
-          Meet the teams
+        <h1 class="text-attention text-8xl pb-2">
+          Meet the teams.
         </h1>
         <p class="text-white text-xl w-1/2">
           Forage locavore vape, gorpcore mumblecore copper mug shoreditch cornhole waistcoat semiotics sriracha. Hoodie migas meh
           narwhal, scenester iPhone sustainable mixtape coloring book vexillologist roof party. Franzen mlkshk live-edge, health
           goth offal synth lomo.
         </p>
-        <button class="bg-attention py-4 w-52 border-black-950 mt-10 text-xl border-solid border-4 border-black">
+        <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 hover:text-white hover:bg-attention">
           Read more
         </button>
       </div>
       <div class="flex justify-evenly pb-40 flex-wrap">
         <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center">
           <img src="rwdisplay.png" alt="">
-          <p class="-mt-20 drop-shadow-text">RAINBOW SIX</p>
+          <p class="-mt-20">RAINBOW SIX</p>
         </div>
         <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center">
           <img src="rwdisplay.png" alt="">
-          <p class="-mt-20 drop-shadow-text">COUNTER-STRIKE</p>
+          <p class="-mt-20">COUNTER-STRIKE</p>
         </div>
         <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center">
           <img src="rwdisplay.png" alt="">
-          <p class="-mt-20 drop-shadow-text">LEAGUE OF LEGENDS</p>
+          <p class="-mt-20">LEAGUE OF LEGENDS</p>
         </div>
         <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center">
           <img src="rwdisplay.png" alt="">
-          <p class="-mt-20 drop-shadow-text">ROCKET LEAGUE</p>
+          <p class="-mt-20">ROCKET LEAGUE</p>
         </div>
       </div>
     </div>
-    <div>
-      s
+    <div class="pt-5">
+      <div class="pl-40 pt-5">
+        <img src="rwstar.png" alt="star" class="flex -ml-20 -mb-24 h-36">
+        <h1 class="text-attention text-8xl pb-8">
+          PARTNERS.
+        </h1>
+      </div>
+      <div class="bg-secondary flex justify-evenly items-center mb-20 h-52 flex-wrap">
+        <img src="partners/rbenergy.png" alt="" class="h-24 hover:h-28">
+        <img src="partners/autismspeaks.png" alt="" class="h-16 hover:h-20">
+        <img src="partners/cos.png" alt="" class="h-28 hover:h-32">
+        <img src="partners/monster.png" alt="" class="h-28 hover:h-32">
+      </div>
     </div>
-  </body>
+    <div class="">
+      <div class="pl-40 pt-5">
+
+        <h1 class="text-attention text-8xl pb-2">
+          MERCH.
+        </h1>
+        <p class="text-white text-xl w-1/2">
+          Forage locavore vape, gorpcore mumblecore copper mug shoreditch cornhole waistcoat semiotics sriracha. Hoodie migas meh
+          narwhal, scenester iPhone sustainable mixtape coloring book vexillologist roof party. Franzen mlkshk live-edge, health
+          goth offal synth lomo. Pabst marfa tilde man bun. Drinking vinegar keffiyeh gorpcore, fixie helvetica stumptown vape
+          enamel pin offal freegan tilde.
+        </p>
+        <a href="/store.html">
+          <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 hover:text-white hover:bg-attention">
+            VIEW STORE
+          </button>
+        </a>
+      </div>
+      <div class="flex justify-evenly mt-12 mb-24">
+        <div>
+          <img src="mockupRW.jpg" alt="mockup" class="h-80">
+        </div>
+        <div>
+          <img src="mockupRW.jpg" alt="mockup" class="h-80">
+        </div>
+        <div>
+          <img src="mockupRW.jpg" alt="mockup" class="h-80">
+        </div>
+      </div>
+    </div>
 {% endblock %}

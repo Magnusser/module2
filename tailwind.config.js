@@ -7,7 +7,8 @@ export default {
         'primary': '#590C2E',
         'secondary': '#151515',
         'tritary': '#300417',
-        'attention': '#F3E116'
+        'attention': '#F3E116',
+        '2ndary': '#232323'
       },
       fontFamily: {
         primary: ['Koulen', 'sans']

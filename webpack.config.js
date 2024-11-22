@@ -44,6 +44,10 @@ export default {
     plugins: [
         new HtmlWebpackPlugin({
             template: './src/pages/index.njk'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/store.njk',
+            filename: 'store.html'
         })
     ],
 }
