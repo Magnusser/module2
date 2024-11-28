@@ -48,6 +48,18 @@ export default {
         new HtmlWebpackPlugin({
             template: './src/pages/store.njk',
             filename: 'store.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/item.njk',
+            filename: 'item.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/contact.njk',
+            filename: 'contact.html'
+        }),
+        new HtmlWebpackPlugin({
+            template: './src/pages/sorry.njk',
+            filename: 'sorry.html'
         })
     ],
 }

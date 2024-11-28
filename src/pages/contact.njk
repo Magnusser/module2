@@ -1,0 +1,35 @@
+{% extends 'src/partials/layout.njk'%}
+{% block content %}
+    <div class="bg-2ndary pt-52 px-40 flex flex-wrap h-min pb-20 justify-between pb-12">
+        <div class="w-full">
+            <h1 class="text-attention text-8xl pb-8">
+                CONTACT US.
+            </h1>
+            <div>
+                <div>
+                    <h2 class="text-white text-4xl pb-4 pt-4">
+                        your email address:
+                    </h2>
+                    <input type="text" class="text-xl w-full border border-2 border-neutral-300 rounded px-7 py-4" placeholder="email address goes here..." maxlength="100">
+                </div>
+                <div>
+                    <h2 class="text-white text-4xl pb-4 pt-8">
+                        your message:
+                    </h2>
+                    <textarea name="message" class="text-xl w-full border border-2 border-neutral-300 rounded px-7 py-4 
+    [&::-webkit-scrollbar]:w-2 
+    [&::-webkit-scrollbar-track]:bg-gray-100 
+    [&::-webkit-scrollbar-thumb]:bg-gray-300
+    dark:[&::-webkit-scrollbar-track]:bg-neutral-700
+    dark:[&::-webkit-scrollbar-thumb]:bg-neutral-500" 
+                    placeholder="Big fat message goes here... (1250)" maxlength="1250" rows="5"></textarea>
+                </div>
+                <div class="flex justify-end pt-10">
+                    <button class="bg-attention py-4 w-52 border-black-950 text-xl border-solid border-4 border-black transition-bg duration-200 hover:bg-bomb">
+                        SEND MAIL
+                    </button>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}

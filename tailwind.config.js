@@ -8,7 +8,8 @@ export default {
         'secondary': '#151515',
         'tritary': '#300417',
         'attention': '#F3E116',
-        '2ndary': '#232323'
+        '2ndary': '#232323',
+        'bomb': '#CDBD0E'
       },
       fontFamily: {
         primary: ['Koulen', 'sans']
