@@ -2,10 +2,10 @@
 {% block content %}
 <!-- NOTE TO SELF: the hover:opacity-* class also makes the object absolute, so find a way out of that one at some other date -->
     <div
-      class="flex-col justify-items-center font-primary bg-primary w-452 pb-12 bg-local bg-cover"
+      class="flex-col justify-items-center font-primary bg-primary w-452 pb-12 bg-center bg-cover md:bg-local bg-no-repeat md:bg-cover bg-centered"
       style="background-image: url(teampick.png)">
-      <img src="riotingwitcheshead.png" alt="witches" class="pt-56 w-1/5 select-none">
-      <p class="text-xl text-center text-white mt-9 w-2/5">
+      <img src="riotingwitcheshead.png" alt="witches" class="pt-56 min-w-1/5 select-none">
+      <p class="text-xl text-center text-white mt-9 w-2/5 md:min-w-40">
         I'm baby jianbing blackbird spyplane kickstarter raw denim church-key. Shaman intelligentsia street art coloring book
         vegan cliche kickstarter lumbersexual locavore deep v. ramps bicycle rights tote bag put a bird on it street art raw
         denim godard selfies hexagon pinterest.
@@ -14,13 +14,13 @@
         View more
       </button>
     </div>
-    <div class="mt-20 mb-20 bg-secondary">
+    <div class="bg-secondary">
       <img src="rwstar.png" alt="star" class="flex -mb-96 select-none">
-      <div class="pl-40 pb-20 pt-20">
+      <div class="pl-0 pb-20 pt-20 md:pl-40 md:text-left text-center flex flex-col items-center md:items-start">
         <h1 class="text-attention text-8xl pb-2">
           Meet the teams.
         </h1>
-        <p class="text-white text-xl w-1/2">
+        <p class="text-white text-xl w-80 md:w-1/2">
           Forage locavore vape, gorpcore mumblecore copper mug shoreditch cornhole waistcoat semiotics sriracha. Hoodie migas meh
           narwhal, scenester iPhone sustainable mixtape coloring book vexillologist roof party. Franzen mlkshk live-edge, health
           goth offal synth lomo.
@@ -29,33 +29,33 @@
           Read more
         </button>
       </div>
-      <div class="flex justify-evenly pb-40 flex-wrap">
-        <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center bg-secondary">
+      <div class="flex justify-evenly pb-28 flex-wrap">
+        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
           <img src="rwdisplay.png" alt="rs" class="transition-opacity duration-200 hover:opacity-60">
           <p class="-mt-20">RAINBOW SIX</p>
         </div>
-        <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center bg-secondary">
+        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
           <img src="rwdisplay.png" alt="cs" class="transition-opacity duration-200 hover:opacity-60">
           <p class="-mt-20">COUNTER-STRIKE</p>
         </div>
-        <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center bg-secondary">
+        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
           <img src="rwdisplay.png" alt="lol" class="transition-opacity duration-200 hover:opacity-60">
           <p class="-mt-20">LEAGUE OF LEGENDS</p>
         </div>
-        <div class="w-96 pb-8 text-attention text-4xl flex-col justify-items-center bg-secondary">
+        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
           <img src="rwdisplay.png" alt="rl" class="transition-opacity duration-200 hover:opacity-60">
           <p class="-mt-20">ROCKET LEAGUE</p>
         </div>
       </div>
     </div>
     <div class="pt-5">
-      <div class="pl-40 pt-5">
+      <div class="pl-0 pt-5 md:pl-40 md:text-left text-center flex flex-col items-center md:items-start">
         <img src="rwstar.png" alt="star" class="flex -ml-20 -mb-24 h-36 select-none">
         <h1 class="text-attention text-8xl pb-8">
           PARTNERS.
         </h1>
       </div>
-      <div class="bg-secondary flex justify-evenly items-center mb-20 h-52 flex-wrap">
+      <div class="space-y-8 bg-secondary flex flex-col md:flex-row justify-evenly items-center mb-20 py-12 max-h-fit md:h-52">
         <img src="partners/rbenergy.png" alt="" class="h-24 transition-h duration-200 hover:h-28">
         <img src="partners/autismspeaks.png" alt="" class="h-16 transition-h duration-200 hover:h-20">
         <img src="partners/cos.png" alt="" class="h-28 transition-h duration-200 hover:h-32">
@@ -63,8 +63,7 @@
       </div>
     </div>
     <div class="">
-      <div class="pl-40 pt-5">
-
+      <div class="pl-0 pt-5 md:pl-40 md:text-left text-center flex flex-col items-center md:items-start">
         <h1 class="text-attention text-8xl pb-2">
           MERCH.
         </h1>
@@ -80,7 +79,7 @@
           </button>
         </a>
       </div>
-      <div class="flex flex-wrap justify-evenly mt-12 mb-24">
+      <div class="space-y-8 flex flex-wrap justify-evenly mt-12 mb-24">
         <div class="bg-secondary h-80">
           <img src="mockupRW.jpg" alt="mockup" class="h-80 mb-12 transition-opacity duration-200 hover:opacity-60">
         </div>
