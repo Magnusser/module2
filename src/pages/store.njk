@@ -1,11 +1,11 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-<div class="bg-2ndary md:pl-40 pt-52 pb-8">
+<div class="bg-2ndary md:pl-40 pt-52 pb-8 justify-items-center md:justify-items-start">
     <h1 class="text-attention text-7xl pb-12">
         CATEGORIES.
     </h1>
-    <div class="flex md:justify-between justify-center content-center">
-        <div class="pr-48">
+    <div class="grid grid-rows-2 md:grid-rows-1 grid-cols-2 md:grid-cols-4 flex flex-col md:flex-row justify-items-center md:justify-items-start md:space-x-48">
+        <div class="">
             <h2 class="text-white text-4xl pb-12">
                 MEN'S
             </h2>
@@ -59,7 +59,7 @@
                 </div>
             </div>
         </div>
-        <div class="pr-48">
+        <div class="">
             <h2 class="text-white text-4xl pb-12">
                 WOMEN'S
             </h2>
@@ -113,7 +113,7 @@
                 </div>
             </div>
         </div>
-        <div class="pr-48">
+        <div class="">
             <h2 class="text-white text-4xl pb-12">
                 CHILDREN'S
             </h2>
@@ -167,7 +167,7 @@
                 </div>
             </div>
         </div>
-        <div class="pr-80">
+        <div class="">
             <h2 class="text-white text-4xl pb-12">
                 MISC
             </h2>
@@ -228,7 +228,7 @@
         store.
     </h1>
     <div class="grid md:grid-cols-3 pb-60 grid-cols-1 md:space-y-0 space-y-20 items-center md:items-start">
-        <div class="md:pr-12 text-center md:text-start">
+        <div class="md:pr-12 text-center md:text-start justify-items-center md:justify-items-start">
             <img src="mockupRW.jpg" alt="productpic" class="h-full w-5/6 object-cover">
             <div class="flex flex-col">
                 <h1 class="text-white text-4xl pt-5">
@@ -246,93 +246,93 @@
                 </a>
             </div>
         </div>
-        <div class="pr-12">
+        <div class="md:pr-12 text-center md:text-start justify-items-center md:justify-items-start">
             <img src="mockupRW.jpg" alt="productpic" class="h-full w-5/6 object-cover">
-            <div>
+            <div class="flex flex-col">
                 <h1 class="text-white text-4xl pt-5">
                     RIOTING WITCHES HOODIE
                 </h1>
-                <div class="flex text-white">
-                    <p>MEN'S |</p>
-                    <p class="pl-2">XL |</p>
-                    <p class="pl-2">SATIN |</p>
+                <div class="flex text-white text-xl justify-center md:justify-start divide-x-2 divide-white my-4">
+                    <p class="px-2">MEN'S</p>
+                    <p class="px-2">XL</p>
+                    <p class="px-2">SATIN</p>
                 </div>
                 <a href="/item.html">
-                    <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
+                    <button class="bg-none py-4 w-52 border-attention text-attention text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
                         Read more
                     </button>
                 </a>
             </div>
         </div>
-        <div class="pr-12">
+        <div class="md:pr-12 text-center md:text-start justify-items-center md:justify-items-start">
             <img src="mockupRW.jpg" alt="productpic" class="h-full w-5/6 object-cover">
-            <div>
+            <div class="flex flex-col">
                 <h1 class="text-white text-4xl pt-5">
                     RIOTING WITCHES HOODIE
                 </h1>
-                <div class="flex text-white">
-                    <p>MEN'S |</p>
-                    <p class="pl-2">XL |</p>
-                    <p class="pl-2">SATIN |</p>
+                <div class="flex text-white text-xl justify-center md:justify-start divide-x-2 divide-white my-4">
+                    <p class="px-2">MEN'S</p>
+                    <p class="px-2">XL</p>
+                    <p class="px-2">SATIN</p>
                 </div>
                 <a href="/item.html">
-                    <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
+                    <button class="bg-none py-4 w-52 border-attention text-attention text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
                         Read more
                     </button>
                 </a>
             </div>
         </div>
     </div>
-    <div class="grid grid-cols-3 pb-96">
-        <div class="pr-12">
+        <div class="grid md:grid-cols-3 pb-60 grid-cols-1 md:space-y-0 space-y-20 items-center md:items-start">
+        <div class="md:pr-12 text-center md:text-start justify-items-center md:justify-items-start">
             <img src="mockupRW.jpg" alt="productpic" class="h-full w-5/6 object-cover">
-            <div>
+            <div class="flex flex-col">
                 <h1 class="text-white text-4xl pt-5">
                     RIOTING WITCHES HOODIE
                 </h1>
-                <div class="flex text-white">
-                    <p>MEN'S |</p>
-                    <p class="pl-2">XL |</p>
-                    <p class="pl-2">SATIN |</p>
+                <div class="flex text-white text-xl justify-center md:justify-start divide-x-2 divide-white my-4">
+                    <p class="px-2">MEN'S</p>
+                    <p class="px-2">XL</p>
+                    <p class="px-2">SATIN</p>
                 </div>
                 <a href="/item.html">
-                    <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
+                    <button class="bg-none py-4 w-52 border-attention text-attention text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
                         Read more
                     </button>
                 </a>
             </div>
         </div>
-        <div class="pr-12">
+        <div class="md:pr-12 text-center md:text-start justify-items-center md:justify-items-start">
             <img src="mockupRW.jpg" alt="productpic" class="h-full w-5/6 object-cover">
-            <div>
+            <div class="flex flex-col">
                 <h1 class="text-white text-4xl pt-5">
                     RIOTING WITCHES HOODIE
                 </h1>
-                <div class="flex text-white">
-                    <p>MEN'S |</p>
-                    <p class="pl-2">XL |</p>
-                    <p class="pl-2">SATIN |</p>
+                <div class="flex text-white text-xl justify-center md:justify-start divide-x-2 divide-white my-4">
+                    <p class="px-2">MEN'S</p>
+                    <p class="px-2">XL</p>
+                    <p class="px-2">SATIN</p>
                 </div>
                 <a href="/item.html">
-                    <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
+                    <button class="bg-none py-4 w-52 border-attention text-attention text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
                         Read more
                     </button>
                 </a>
             </div>
         </div>
-        <div class="pr-12">
+        <div class="md:pr-12 text-center md:text-start justify-items-center md:justify-items-start">
             <img src="mockupRW.jpg" alt="productpic" class="h-full w-5/6 object-cover">
-            <div>
+            <div class="flex flex-col">
                 <h1 class="text-white text-4xl pt-5">
                     RIOTING WITCHES HOODIE
                 </h1>
-                <div class="flex text-white">
-                    <p>MEN'S |</p>
-                    <p class="pl-2">XL |</p>
-                    <p class="pl-2">SATIN |</p>
+                <div class="flex text-white text-xl justify-center md:justify-start divide-x-2 divide-white my-4">
+                    <p class="px-2">MEN'S</p>
+                    <p class="px-2">XL</p>
+                    <p class="px-2">SATIN</p>
                 </div>
                 <a href="/item.html">
-                    <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
+                    <button class="bg-none py-4 w-52 border-attention text-attention text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
                         Read more
                     </button>
                 </a>
