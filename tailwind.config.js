@@ -4,18 +4,16 @@ export default {
   theme: {
     extend: {
       colors: {
-        'primary': '#590C2E',
-        'secondary': '#151515',
-        'tritary': '#300417',
-        'attention': '#F3E116',
-        '2ndary': '#232323',
-        'bomb': '#CDBD0E'
+        'primary': '#CB2729',
+        'secondary': '#770000',
+        'third': '#BD3435',
+        'golden': '#D89C00',
+        'darkness': '#151415',
+        'lightness': '#FFFAED',
       },
       fontFamily: {
-        primary: ['Koulen', 'sans']
-      },
-      dropShadow: {
-        'text': '0 -10px 0px rgba(0, 0, 0, 1)'
+        khula: ['Khula', 'sans'],
+        beardbone: ['Beardbone']
       }
     },
   },

@@ -1,13 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.cdnfonts.com/css/koulen');
+@import url('https://fonts.google.com/specimen/Khula');
 @layer base {
     @font-face {
-        font-family: 'Koulen', sans-serif;
+        font-family: 'Khula', sans-serif;
         font-style: regular;
         font-weight: 400;
         font-display: swap;
-        src: url(../public/Koulen-Regular.ttf) format('ttf');
+        src: url(../public/Khula-Regular.ttf) format('ttf');
         }
-    } 
+    }

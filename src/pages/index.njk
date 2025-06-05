@@ -1,94 +1,19 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-<!-- NOTE TO SELF: the hover:opacity-* class also makes the object absolute, so find a way out of that one at some other date -->
-    <div
-      class="flex-col justify-items-center font-primary bg-primary w-452 pb-12 bg-center bg-cover md:bg-local bg-no-repeat md:bg-cover bg-centered"
-      style="background-image: url(teampick.png)">
-      <img src="riotingwitcheshead.png" alt="witches" class="pt-56 min-w-1/5 select-none">
-      <p class="text-xl text-center text-white mt-9 w-2/5 md:min-w-40">
-        I'm baby jianbing blackbird spyplane kickstarter raw denim church-key. Shaman intelligentsia street art coloring book
-        vegan cliche kickstarter lumbersexual locavore deep v. ramps bicycle rights tote bag put a bird on it street art raw
-        denim godard selfies hexagon pinterest.
-      </p>
-      <button class="bg-attention py-4 w-52 border-black-950 mt-10 text-xl border-solid border-4 border-black transition-bg duration-200 hover:bg-bomb">
-        View more
-      </button>
-    </div>
-    <div class="bg-secondary">
-      <img src="rwstar.png" alt="star" class="flex -mb-96 select-none">
-      <div class="pl-0 pb-20 pt-20 md:pl-40 md:text-left text-center flex flex-col items-center md:items-start">
-        <h1 class="text-attention text-8xl pb-2">
-          Meet the teams.
-        </h1>
-        <p class="text-white text-xl w-80 md:w-1/2">
-          Forage locavore vape, gorpcore mumblecore copper mug shoreditch cornhole waistcoat semiotics sriracha. Hoodie migas meh
-          narwhal, scenester iPhone sustainable mixtape coloring book vexillologist roof party. Franzen mlkshk live-edge, health
-          goth offal synth lomo.
-        </p>
-        <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
-          Read more
-        </button>
-      </div>
-      <div class="flex justify-evenly pb-28 flex-wrap">
-        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
-          <img src="rwdisplay.png" alt="rs" class="transition-opacity duration-200 hover:opacity-60">
-          <p class="-mt-20">RAINBOW SIX</p>
-        </div>
-        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
-          <img src="rwdisplay.png" alt="cs" class="transition-opacity duration-200 hover:opacity-60">
-          <p class="-mt-20">COUNTER-STRIKE</p>
-        </div>
-        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
-          <img src="rwdisplay.png" alt="lol" class="transition-opacity duration-200 hover:opacity-60">
-          <p class="-mt-20">LEAGUE OF LEGENDS</p>
-        </div>
-        <div class="w-96 pb-8 mb-10 text-attention text-4xl flex-col justify-items-center bg-secondary">
-          <img src="rwdisplay.png" alt="rl" class="transition-opacity duration-200 hover:opacity-60">
-          <p class="-mt-20">ROCKET LEAGUE</p>
-        </div>
-      </div>
-    </div>
-    <div class="pt-5">
-      <div class="pl-0 pt-5 md:pl-40 md:text-left text-center flex flex-col items-center md:items-start">
-        <img src="rwstar.png" alt="star" class="flex -ml-20 -mb-24 h-36 select-none">
-        <h1 class="text-attention text-8xl pb-8">
-          PARTNERS.
-        </h1>
-      </div>
-      <div class="space-y-8 md:space-y-0 bg-secondary flex flex-col md:flex-row justify-evenly items-center mb-20 py-12 max-h-fit md:h-52">
-        <img src="partners/rbenergy.png" alt="" class="h-24 transition-h duration-200 hover:h-28">
-        <img src="partners/autismspeaks.png" alt="" class="h-16 transition-h duration-200 hover:h-20">
-        <img src="partners/cos.png" alt="" class="h-28 transition-h duration-200 hover:h-32">
-        <img src="partners/monster.png" alt="" class="h-28 transition-h duration-200 hover:h-32">
-      </div>
-    </div>
-    <div class="">
-      <div class="pl-0 pt-5 md:pl-40 md:text-left text-center flex flex-col items-center md:items-start">
-        <h1 class="text-attention text-8xl pb-2">
-          MERCH.
-        </h1>
-        <p class="text-white text-xl w-1/2">
-          Forage locavore vape, gorpcore mumblecore copper mug shoreditch cornhole waistcoat semiotics sriracha. Hoodie migas meh
-          narwhal, scenester iPhone sustainable mixtape coloring book vexillologist roof party. Franzen mlkshk live-edge, health
-          goth offal synth lomo. Pabst marfa tilde man bun. Drinking vinegar keffiyeh gorpcore, fixie helvetica stumptown vape
-          enamel pin offal freegan tilde.
-        </p>
-        <a href="/store.html">
-          <button class="bg-none py-4 w-52 border-attention text-attention mt-10 text-xl border-solid border-4 transition-bg duration-200 transition-text duration-200 hover:text-white hover:bg-attention">
-            VIEW STORE
-          </button>
-        </a>
-      </div>
-      <div class="space-y-8 md:space-y-0 flex flex-wrap justify-evenly mt-12 mb-24">
-        <div class="bg-secondary h-80">
-          <img src="mockupRW.jpg" alt="mockup" class="h-80 mb-12 transition-opacity duration-200 hover:opacity-60">
-        </div>
-        <div class="bg-secondary h-80">
-          <img src="mockupRW.jpg" alt="mockup" class="h-80 mb-12 transition-opacity duration-200 hover:opacity-60">
-        </div>
-        <div class="bg-secondary h-80">
-          <img src="mockupRW.jpg" alt="mockup" class="h-80 mb-12 transition-opacity duration-200 hover:opacity-60">
-        </div>
-      </div>
-    </div>
+  <h1>Welcome to My Website</h1>
+  <p>This is the home page of my website. Here you can find various resources and information.</p>
+  
+  <section>
+    <h2>Latest News</h2>
+    <ul>
+      <li>News item 1</li>
+      <li>News item 2</li>
+      <li>News item 3</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <p>If you have any questions, feel free to reach out via our contact page.</p>
+  </section>
 {% endblock %}
