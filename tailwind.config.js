@@ -13,7 +13,7 @@ export default {
       },
       fontFamily: {
         khula: ['Khula', 'sans'],
-        beardbone: ['Beardbone']
+        beardbone: ['Beardbone', 'sans'],
       }
     },
   },

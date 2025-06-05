@@ -1,13 +1,18 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-@import url('https://fonts.google.com/specimen/Khula');
+
 @layer base {
     @font-face {
-        font-family: 'Khula', sans-serif;
-        font-style: regular;
+        font-family: 'Khula';
+        font-style: normal;
         font-weight: 400;
-        font-display: swap;
-        src: url(../public/Khula-Regular.ttf) format('ttf');
+        src: url(../public/Khula-Regular.ttf) format('truetype');
+        }
+    @font-face {
+        font-family: 'Beardbone';
+        font-style: normal;
+        font-weight: normal;
+        src: url(../public/Beardbone.ttf) format('truetype');
         }
     }
