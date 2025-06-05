@@ -18,4 +18,10 @@
         -webkit-text-stroke: 8px #FFFAED;
         paint-order: stroke fill;
         }
+    #auto-scroll-gallery {
+        scrollbar-width: none;
+        }
+    #auto-scroll-gallery::-webkit-scrollbar {
+        display: none;
+        }
     }

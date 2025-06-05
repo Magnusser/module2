@@ -95,7 +95,7 @@
       </article>
     </div>
   </section>
-  <section style="width: 1318px; background-color: #CB2729; padding-top: 100px; padding-bottom: 105px; color: white; position: relative; overflow: hidden;">
+  <section style="background-color: #CB2729; padding-top: 100px; padding-bottom: 105px; color: white; position: relative; overflow: hidden;">
     <div style="width: hug; padding-inline: 274px; z-index: 1; position: relative;">
       <h2 class="font-beardbone text-left" style="font-size: 128px; margin: 0; flex-shrink: 0;">Attractions</h2>
       <p class="font-khula text-left" style="font-size: 16px; padding-bottom: 50px; width: 541px"> 
@@ -141,6 +141,29 @@
       </defs>
       <use href="/landscape.svg" fill="url(#landscape-gradient)" height="557px" width="1945px"/>
     </svg>
+    <div id="auto-scroll-gallery" style="position: absolute; top: 0; right: 0; height: 100%; width: 602px; overflow-y: auto; display: flex; flex-direction: column; gap: 0; z-index: 2; border-radius: 0; padding: 0; scrollbar-width: none;">
+      <img src="/derringer.jpg" alt="Derringer" style="width: 100%; height: 602px; width: 602px; object-fit: cover; border-radius: 0;">
+      <img src="/winchester.jpg" alt="Winchester" style="width: 100%; height: 602px; width: 602px; object-fit: cover; border-radius: 0;">
+      <img src="/twinrevolvers.jpg" alt="Twin Revolvers" style="width: 100%; height: 602px; width: 602px; object-fit: cover; border-radius: 0;">
+      <img src="/derringersg.jpg" alt="Derringersg" style="width: 100%; height: 602px; width: 602px; object-fit: cover; border-radius: 0;">
+    </div>
+    <script>
+      (function() {
+      const gallery = document.getElementById('auto-scroll-gallery');
+      let scrollStep = 1;
+      let direction = 1;
+      function autoScroll() {
+      if (!gallery) return;
+      if (direction === 1 && gallery.scrollTop + gallery.clientHeight >= gallery.scrollHeight) {
+      direction = -1;
+      } else if (direction === -1 && gallery.scrollTop <= 0) {
+      direction = 1;
+      }
+      gallery.scrollTop += scrollStep * direction;
+      }
+      setInterval(autoScroll, 20);
+      })();
+    </script>
   </section>
 </main>
 {% endblock %}
