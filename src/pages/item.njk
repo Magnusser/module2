@@ -1,15 +1,18 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
 <section>
+    <svg style="rotate: 25deg; position: absolute; margin-left: 305px; margin-top: -100px; z-index: -1" height="400px" width="700px">
+        <use href="/revolver.svg" fill="#CB2729" height="400px" width="700px"/>
+    </svg>
     <article style="margin-top: 241px; margin-left: 274px; display: flex; margin-bottom: 150px;">
-        <header style="align-items: center; width: 532px; margin-right: 140px;">
-            <img src="/twinrevolvers.jpg" alt="Twins" style="width: 532px; height: 532px; border-radius: 5%; object-fit: cover;">
+        <header style="align-items: center; width: 532px; margin-right: 140px; outline: 8px solid #FFFAED; border-top-right-radius: 5%; border-top-left-radius: 5%; border-bottom-right-radius: 2%; border-bottom-left-radius: 2%;">
+            <img id="main-image" src="/twinrevolvers.jpg" alt="Twins" style="width: 532px; height: 532px; border-top-right-radius: 5%; border-top-left-radius: 5%; object-fit: cover;">
             <div style="display: flex; width: 532px; height: 100px; justify-content: space-between; align-items: center;">
-                <img src="/twinrevolvers.jpg" alt="image1" style="border-radius: 5%; object-fit: cover; height: 100px; width: 106.5px;">
-                <img src="/colt1.jpg" alt="image2" style="border-radius: 5%; object-fit: cover; height: 100px; width: 106.5px;">
-                <img src="/cont2.jpg" alt="image3" style="border-radius: 5%; object-fit: cover; height: 100px; width: 106.5px;">
-                <img src="/colt3.jpg" alt="image4" style="border-radius: 5%; object-fit: cover; height: 100px; width: 106.5px;">
-                <img src="/colt4.jpg" alt="image5" style="border-radius: 5%; object-fit: cover; height: 100px; width: 106.5px;">
+                <img src="/twinrevolvers.jpg" alt="image1" style="border-bottom-left-radius: 5%; object-fit: cover; height: 100px; width: 106.5px; cursor: pointer;" onclick="document.getElementById('main-image').src='/twinrevolvers.jpg'">
+                <img src="/colt1.jpg" alt="image2" style="object-fit: cover; height: 100px; width: 106.5px; cursor: pointer;" onclick="document.getElementById('main-image').src='/colt1.jpg'">
+                <img src="/cont2.jpg" alt="image3" style="object-fit: cover; height: 100px; width: 106.5px; cursor: pointer;" onclick="document.getElementById('main-image').src='/cont2.jpg'">
+                <img src="/colt3.jpg" alt="image4" style="object-fit: cover; height: 100px; width: 106.5px; cursor: pointer;" onclick="document.getElementById('main-image').src='/colt3.jpg'">
+                <img src="/colt4.jpg" alt="image5" style="border-bottom-right-radius: 5%; object-fit: cover; height: 100px; width: 106.5px; cursor: pointer;" onclick="document.getElementById('main-image').src='/colt4.jpg'">
             </div>
         </header>
         <div style="text-align: center;">
