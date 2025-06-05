@@ -1,4 +1,39 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-
+<section style="margin-top: 241px; padding-bottom: 100px;">
+      <svg style="position: absolute; margin-top: 70px; right: 0px;" height="262px" width="254px">
+        <use href="/revolverhalved.svg" fill="#CB2729" height="262px" width="254px"/>
+      </svg>
+      <svg style="position: absolute; margin-top: 70px; left: 0px;" height="262px" width="254px">
+        <use href="/revolverhalvedflip.svg" fill="#CB2729" height="262px" width="254px"/>
+      </svg>
+    <div>
+      <div style="padding-bottom: 20px; display: flex; justify-content: center; align-items: center; position: relative; gap: 6px; width: 100%;">
+        <svg width="522" height="4" style="flex-shrink: 0;">
+          <rect width="522" height="4" fill="#CB2729"/>
+        </svg>
+        <h2 class="font-beardbone text-center" style="font-size: 128px; color: #CB2729; margin: 0; flex-shrink: 0;">STORE</h2>
+        <svg width="522" height="4" style="flex-shrink: 0;">
+          <rect width="522" height="4" fill="#CB2729"/>
+        </svg>
+      </div>
+    </div>
+    <div style="padding-inline: 274px;">
+      <h2 class="font-beardbone text-left" style="max-width: 800px; color: #CB2729; font-size: 64px;">Filter by...</h2>
+        <div style="display: flex; gap: 20px; margin-top: 20px; flex-wrap: wrap;">
+            <select class="font-extrabold" style="font-size: 24px; color: #151415; background-color: #FFFAED; margin-right: 20px;">
+                <option>Price</option>
+                <option>$ - $$$</option>
+                <option>$$$ - $</option>
+            </select>
+            <select class="font-extrabold" style="font-size: 24px; color: #151415; background-color: #FFFAED;">
+                <option>Item</option>
+                <option>Derringer</option>
+                <option>Winchester</option>
+                <option>Revolver</option>
+                <option>Shotgun</option>
+            </select>
+        </div>
+    </div>
+  </section>
 {% endblock %}
