@@ -1,26 +1,26 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-<section style="padding-top: 241px; padding-inline: 274px;">
-    <svg style="position: absolute; top: 227px; right: 0px; z-index: -1;" height="1103px" width="528px">
+<section class="md:pt-[241px] md:px-[274px] sm:px-[16px] sm:pt-[130px] px-[16px] pt-[130px]">
+    <svg class="xl:visible invisible absolute md:top-[227px] right-0 -z-10 md:h-[1103px] md:w-[528px] h-[258px] w-[850px]">
         <use href="/cowboy.svg" fill="#CB2729" height="1103px" width="528px"/>
     </svg>
-    <svg style="position: absolute; bottom: -300px; left: 0px; z-index: -1;" height="420px" width="880px">
-        <use href="/cactus.svg" fill="#CB2729" height="420px" width="880px"/>
+    <svg class="absolute md:-bottom-[200px] bottom-[400px] left-0 -z-10 md:h-[420px] md:w-[880px] h-[172px] w-[374px]">
+        <use href="/cactus.svg" class="md:h-[420px] md:w-[880px] h-[172px] w-[374px]"/>
     </svg>
-    <div style="padding-bottom: 50px; width: 696px; text-wrap: wrap;">
-      <h2 class="font-beardbone text-left" style="font-size: 128px; color: #CB2729;">Donating helps</h2>
-      <p class="font-khone text-left" style="font-size: 20px; color: #151415;">
+    <div class="md:pb-[50px] pb-[50px] w-full max-w-3xl break-words">
+      <h2 class="font-beardbone text-left md:text-9xl sm:text-5xl text-5xl text-primary">Donating helps</h2>
+      <p class="font-khone text-left text-base md:text-xl text-darkness">
         Your donation will help us maintain our facilities, support our programs, and ensure that future generations can enjoy the beauty and history of this unique place.
       </p>
     </div>
-    <div style="padding-bottom: 250px;">
-        <h2 class="font-beardbone text-left" style="font-size: 32px; color: #151415; margin-bottom: 40px;">Donation options:</h2>
-        <ul class="font-khone text-left" style="font-size: 20px; color: #CB2729; gap: 10px; display: flex; margin-bottom: 40px;">
+    <div class="md:pb-[250px] pb-[50px]">
+        <h2 class="font-beardbone text-darkness text-left text-[32px] md:mb-[40px] mb-[20px]">Donation options:</h2>
+        <ul class="font-khone text-left md:text-xl flex-wrap gap-[5px] md:gap-[10px] text-primary md:text-xl md:mb-[40px] mb-10px flex">
             <li style="padding: 10px 60px; outline: solid #CB2729; outline-width: 2px; border-radius: 50px; hover: background-color: #CB2729;">5$</li>
             <li style="padding: 10px 60px; outline: solid #CB2729; outline-width: 2px; border-radius: 50px; hover: background-color: #CB2729;">10$</li>
             <li style="padding: 10px 60px; outline: solid #CB2729; outline-width: 2px; border-radius: 50px; hover: background-color: #CB2729;">15$</li>
         </ul>
-        <a class="font-khula text-center" style="background-color: #CB2729; color: white; padding: 15px 60px; font-size: 20px; border-radius: 30px; cursor: pointer; display: inline-block; text-decoration: none;">
+        <a class="mt-[10px] font-khula text-center bg-primary text-white py-[15px] px-[50px] text-[20px] rounded-[30px] cursor-pointer inline-block no-underline">
             DONATE
         </a>
     </div>
