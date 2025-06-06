@@ -1,7 +1,7 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-<section style="padding-top: 241px; padding-inline: 274px;">
-    <svg style="position: absolute; bottom: -250px; right: 0px; z-index: -1;" height="549px" width="1920px">
+<section class="pt-[241px] md:px-[274px] sm:px-[16px] sm:pt-[130px]">
+    <svg class="absolute -bottom-[250px] right-0 -z-10" height="549px" width="1920px">
         <defs>
             <linearGradient id="landscapeGradient" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stop-color="#FFFAED"/>
@@ -10,13 +10,13 @@
         </defs>
         <use href="/landscape.svg" fill="url(#landscapeGradient)" height="549px" width="1920px"/>
     </svg>
-    <div style="padding-bottom: 50px; width: 696px; text-wrap: wrap;">
-      <h2 class="font-beardbone text-left" style="font-size: 128px; color: #CB2729;">WRITE TO US!</h2>
+    <div class="md:pb-[50px] sm:pb-[10px] w-full max-w-xl break-words">
+        <h2 class="font-beardbone text-left md:text-9xl sm:text-5xl text-primary">WRITE TO US!</h2>
     </div>
-    <div style="padding-bottom: 400px">
-        <input type="text" placeholder="Your email address..." style="width: 100%; padding: 15px; font-size: 20px; border: 2px solid #CB2729; border-radius: 10px; margin-bottom: 24px;">
-        <input type="email" placeholder="Your message..." style="width: 100%; padding: 15px; font-size: 20px; border: 2px solid #CB2729; border-radius: 10px; margin-bottom: 40px;">
-        <a class="font-khula text-center" style="background-color: #CB2729; color: white; padding: 15px 30px; font-size: 20px; border-radius: 30px; cursor: pointer; display: inline-block; text-decoration: none;">
+    <div class="md:pb-[400px] sm:pb-[120px]">
+        <input type="text" placeholder="Your email address..." class="w-full p-[15px] text-[20px] border-2 border-primary rounded-[10px] md:mb-[24px] sm: mb-[10px]">
+        <input type="email" placeholder="Your message..." class="w-full p-[15px] text-[20px] border-2 border-primary rounded-[10px] md:mb-[40px] sm: mb-[20px]">
+        <a class="font-khula text-center bg-primary text-white py-[15px] px-[30px] text-[20px] rounded-[30px] cursor-pointer inline-block no-underline">
             SEND MESSAGE
         </a>
     </div>
