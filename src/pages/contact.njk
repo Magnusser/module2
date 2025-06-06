@@ -1,19 +1,19 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-<section class="md:pt-[241px] md:px-[274px] sm:px-[16px] sm:pt-[130px]">
-    <svg class="absolute md:-bottom-[250px] sm:bottom-[50px] right-0 -z-10" height="549px" width="1920px">
+<section class="md:pt-[241px] md:px-[274px] sm:px-[16px] sm:pt-[130px] px-[16px] pt-[130px]">
+    <svg class="absolute md:-bottom-[250px] bottom-[400px] right-0 -z-10 md:h-[549px] md:w-[1920px] h-[258px] w-[850px]">
         <defs>
             <linearGradient id="landscapeGradient" x1="0" y1="0" x2="0" y2="1">
                 <stop offset="0%" stop-color="#FFFAED"/>
                 <stop offset="50%" stop-color="#CB2729"/>
             </linearGradient>
         </defs>
-        <use href="/landscape.svg" fill="url(#landscapeGradient)" height="549px" width="1920px"/>
+        <use href="/landscape.svg" fill="url(#landscapeGradient)" class="md:h-[549px] md:w-[1920px] h-[258px] w-[850px]"/>
     </svg>
-    <div class="md:pb-[50px] sm:pb-[10px] w-full max-w-xl break-words">
-        <h2 class="font-beardbone text-left md:text-9xl sm:text-5xl text-primary">WRITE TO US!</h2>
+    <div class="md:pb-[50px] pb-[10px] w-full max-w-xl break-words">
+        <h2 class="font-beardbone text-left md:text-9xl sm:text-5xl text-5xl text-primary">WRITE TO US!</h2>
     </div>
-    <div class="md:pb-[400px] sm:pb-[120px]">
+    <div class="md:pb-[400px] pb-[120px]">
         <input type="text" placeholder="Your email address..." class="w-full p-[15px] text-[20px] border-2 border-primary rounded-[10px] md:mb-[24px] sm: mb-[10px]">
         <input type="email" placeholder="Your message..." class="w-full p-[15px] text-[20px] border-2 border-primary rounded-[10px] md:mb-[40px] sm: mb-[20px]">
         <a class="font-khula text-center bg-primary text-white py-[15px] px-[30px] text-[20px] rounded-[30px] cursor-pointer inline-block no-underline">
