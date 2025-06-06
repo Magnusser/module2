@@ -1,10 +1,10 @@
 {% extends 'src/partials/layout.njk'%}
 {% block content %}
-<header style="width: 100%; height: 907px; background-image: url('/pussiveskiasi.jpg'); background-size: cover; background-position: center; background-color: red;">
-  <div style="display: flex;">
-    <h1 class="font-beardbone text-left" style="user-select: none; font-size: 300px; color: white; padding-left: 274px; padding-top: 289px">PÜSSI</h1>
-    <h1 class="font-beardbone text-right" style="user-select: none; font-size: 300px; color: white; padding-left: 274px; padding-top: 289px;">VESKI</h1>
-    <img src="/Wlogo.png" alt="Wlogo" style="user-select: none; width: 600px; height: 600px; position: absolute; top: 160px; left: 660px; z-index: 1; opacity: 0.4;">
+<header class="w-full xl:h-[907px] h-[410px] bg-cover bg-center bg-red-600" style="background-image: url('/pussiveskiasi.jpg');">
+  <div class="flex flex-col items-center justify-center xl:flex-row xl:justify-items-center xl:pt-[289px] pt-[130px]">
+    <h1 class="font-beardbone xl:text-left text-center select-none xl:text-[300px] text-[96px] text-white">PÜSSI</h1>
+    <h1 class="font-beardbone xl:text-right text-center select-none xl:text-[300px] text-[96px] text-white xl:pl-[274px]">VESKI</h1>
+    <img src="/Wlogo.png" alt="Wlogo" class="select-none xl:w-[600px] w-[130px] xl:h-[600px] h-[130px] absolute xl:top-[160px] top-[200px] xl:left-1/2 xl:-translate-x-1/2 z-[1] opacity-40">
   </div>
 </header>
 <main>
