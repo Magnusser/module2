@@ -1,6 +1,7 @@
 import './style.css';
 import * as bootstrap from 'bootstrap';
 import {createApp} from 'vue';
+import { createRoot } from 'react-dom/client';
 const routes = [
     {
         path: '/',
@@ -31,6 +32,9 @@ const routes = [
         name: 'Leaflet'
     }
 ];
+document.body.innerHTML = '<div id="app"></div>';
+const root = createRoot(document.getElementById('app'));
+root.render(<h1>Hello, world</h1>);
 const router = VueRouter.createRouter({history: VueRouter.createWebHistory(), routes});
 const app = createApp(App);
 app.use(router);
